@@ -167,7 +167,7 @@
                       </ui:Target>
                     </ui:TypeInto.Target>
                   </ui:TypeInto>
-                  <ui:UiElementExists DisplayName="Element Exists 'DIV'" Exists="[bCustText]" sap:VirtualizedContainerService.HintSize="864.8,107.2" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+                  <ui:UiElementExists DisplayName="Element Exists 'DIV'" Exists="[bCustText]" sap:VirtualizedContainerService.HintSize="1398.4,107.2" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
                     <ui:UiElementExists.Target>
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e1d72957-1fd7-459a-840f-25c90d3834b8" InformativeScreenshot="651ff236d88dbed286bc6d9687164c41" Selector="&lt;html app='chrome.exe' title='Payment Via EFT (TNGD eWallet (Admin Portal)) (TNGDUAT)' /&gt;&lt;webctrl aaname='No data to display' tag='DIV' /&gt;" TimeoutMS="5000">
                         <ui:Target.WaitForReady>
@@ -176,7 +176,7 @@
                       </ui:Target>
                     </ui:UiElementExists.Target>
                   </ui:UiElementExists>
-                  <If Condition="[bCustText = True]" sap:VirtualizedContainerService.HintSize="864.8,52.8" sap2010:WorkflowViewState.IdRef="If_8">
+                  <If Condition="[bCustText = True]" sap:VirtualizedContainerService.HintSize="1398.4,52.8" sap2010:WorkflowViewState.IdRef="If_8">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -746,6 +746,6 @@
         </Catch>
       </TryCatch.Catches>
     </TryCatch>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1018.4,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;End SAGE Reject Payment&quot;]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1552,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;End SAGE Reject Payment&quot;]" />
   </Sequence>
 </Activity>
